@@ -1,4 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Root from "./root.js";
 
-ReactDOM.render(<div />, document.getElementById("container"));
+ReactDOM.render(<Root />, document.getElementById("container"));
